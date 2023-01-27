@@ -21,7 +21,7 @@
 <div class="card">
 	<div class="card-header">
 		<div class="row">
-			<div class="col col-md-6"><b>Product Data</b></div>
+			<div class="col col-md-6"><b>PRODUCT DATA</b></div>
 			<div class="col col-md-6">
 				<a href="{{ route('products.create') }}" class="btn btn-success btn-sm float-end">Add</a>
 			</div>
@@ -65,7 +65,7 @@
 
 			@else
 				<tr>
-					<td colspan="5" class="text-center">No Data Found</td>
+					<td colspan="7" class="text-center">No Data Found</td>
 				</tr>
 			@endif
 		</table>
